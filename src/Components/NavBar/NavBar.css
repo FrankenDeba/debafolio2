@@ -1,0 +1,58 @@
+.nav_cont {
+  /* width: 100vw; */
+  /* margin: 25px; */
+  padding: 10px 15px;
+  border: 2px solid #000;
+  min-height: 50px;
+  max-height: 80px;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  background-color: #faedcd;
+}
+
+.nav_cont > div {
+  max-width: 60%;
+}
+
+.nav_cont .svg-filter2 {
+  filter: invert(73%) sepia(60%) saturate(6384%) hue-rotate(159deg)
+    brightness(92%) contrast(101%);
+}
+
+.nav_cont div {
+  display: flex;
+}
+
+.nav_cont h1 {
+  font-size: 36px;
+  margin-right: 8px;
+  font-family: "Cedarville Cursive", cursive;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  /* background-color: #faedcd;
+  border: 1px solid #000;
+  box-shadow: 2px 2px solid #000; */
+}
+
+.nav_cont h1:nth-child(2) {
+  color: #219ebc;
+  background: linear-gradient(to right, #669bbc 0%, #3a86ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.nav_cont h1:nth-child(3) {
+  /* color: #2a9d8f; */
+  background: linear-gradient(to right, #2a9d8f 0%, #1982c4 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.cedarville-cursive-regular {
+  font-family: "Cedarville Cursive", cursive;
+  font-weight: 400;
+  font-style: normal;
+}

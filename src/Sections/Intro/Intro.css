@@ -1,0 +1,13 @@
+.intro_sec {
+  display: flex;
+  justify-content: space-between;
+  margin: 150px 10px;
+  /* height: 50vh; */
+}
+
+@media screen and (max-width: 768px) {
+  .intro_sec {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}

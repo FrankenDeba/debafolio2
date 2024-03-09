@@ -1,0 +1,67 @@
+.profile_pic_cont {
+  /* position: absolute; */
+  /* position: relative; */
+}
+
+.bord_cont1 {
+  width: fit-content;
+  border: 5px solid steelblue;
+  transform: rotate(-10deg);
+  border-radius: 25px 0 25px 0;
+}
+
+.bord_cont2 {
+  width: fit-content;
+  border: 5px solid salmon;
+  transform: rotate(-20deg);
+  border-radius: 25px 0 25px 0;
+}
+
+.border-2 {
+  border: 2px dashed #000;
+  transform: translate(0, 0px) rotate(-50deg);
+  height: 80%;
+  z-index: -2;
+}
+
+.profile_pic_cont .img_cont {
+  transform: rotate(30deg);
+  /* border-radius: 15px; */
+  border-radius: 25px 0 25px 0;
+  height: 250px;
+  box-shadow: 0 0 15px #219ebc;
+}
+/* 
+.profile_pic_cont .img_cont::after {
+  content: " ";
+  /* width: 100%;
+  height: 100px; */
+/* position: absolute;
+  top: -5px;
+  bottom: 5px;
+  left: 5px;
+  right: 5px;
+  z-index: -500;
+  border: 2px solid red;
+  box-shadow: 0 0 5px #000;
+}  */
+
+@media screen and (max-width: 768px) {
+  .profile_pic_cont {
+    /* flex-direction: column;
+      justify-content: space-between; */
+    margin: 0 0 50px 0;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+.border-1 {
+  position: relative;
+  border: 2px dashed red;
+  height: 100%;
+  width: 100%;
+  transform: translate(0, 0px) rotate(-45deg);
+  /* padding: 5px; */
+}
