@@ -1,0 +1,10 @@
+.bgProj {
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bgProj img {
+  width: 80%;
+}

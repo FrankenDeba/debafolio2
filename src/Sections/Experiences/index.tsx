@@ -1,5 +1,10 @@
 import "./Experiences.css";
 import Experience from "../../Components/Experience";
+import InfaLogo from "../../assets/infa.png";
+import cpLogo from "../../assets/classplus.avif";
+import learngramLogo from "../../assets/learngram.png";
+import spLogo from "../../assets/superprocure.png";
+import alien from "../../assets/alien.png";
 
 function Experiences() {
   const experiences = [
@@ -14,50 +19,62 @@ function Experiences() {
           col: "#219ebc",
           bgCol: "rgb(33, 158, 188, 0.25)",
         },
-        { text: "JavaScript", col: "", bgCol: "" },
-        { text: "Redux", col: "", bgCol: "" },
+        {
+          text: "JavaScript",
+          col: "rgb(250, 128, 114)",
+          bgCol: "rgb(250, 128, 114, 0.25)",
+        },
+        {
+          text: "Redux",
+          col: "rgb(187, 62, 3)",
+          bgCol: "rgb(187, 62, 3, 0.25)",
+        },
         { text: "Jest unit test", col: "", bgCol: "" },
         { text: "E2E", col: "", bgCol: "" },
       ],
       role: "Software Engineer",
-      points: ["Fixed 15+ bugs to stabilize sequential edit feature."],
-      logo: "",
+      points: [
+        "Fixed 15+ bugs to stabilize sequential edit feature.",
+        "Contributed to category filtering system for making it international presentation ready.",
+        "Added 60+ E2E & unit tests to increase test coverage by 20%.",
+      ],
+      logo: InfaLogo,
     },
     {
-      companyName: "",
-      year: "",
+      companyName: "Classplus",
+      year: "June 2021 - June 2022",
+      desc: "I was contributing mainly to their in-house CRM & other growth related products.",
+      technologies: [],
+      role: "Software Engineer (UI)",
+      points: [],
+      logo: cpLogo,
+    },
+    {
+      companyName: "Learngram",
+      year: "February 2021 - May 2021",
       desc: "",
       technologies: [""],
       role: "",
       points: [],
-      logo: "",
+      logo: learngramLogo,
     },
     {
-      companyName: "",
-      year: "",
+      companyName: "SuperProcure",
+      year: "August 2020 - February 2021",
       desc: "",
       technologies: [""],
       role: "",
       points: [],
-      logo: "",
+      logo: spLogo,
     },
     {
-      companyName: "",
-      year: "",
+      companyName: "Alien Brains",
+      year: "January 2020 - July 2020",
       desc: "",
       technologies: [""],
-      role: "",
+      role: "Web developer trainee (Internship)",
       points: [],
-      logo: "",
-    },
-    {
-      companyName: "",
-      year: "",
-      desc: "",
-      technologies: [""],
-      role: "",
-      points: [],
-      logo: "",
+      logo: alien,
     },
   ];
   return (

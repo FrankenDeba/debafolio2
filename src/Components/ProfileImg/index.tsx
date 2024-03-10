@@ -1,5 +1,5 @@
 import "./ProfileImg.css";
-import Profile from "../../debaProfile.webp";
+import Profile from "../../assets/debaProfile.webp";
 
 function ProfileImg() {
   return (
@@ -7,7 +7,7 @@ function ProfileImg() {
       {/* <div className="border-1"></div> */}
       <div className="bord_cont1">
         <div className="bord_cont2">
-          <img src={Profile} className="img_cont" />
+          <img src={Profile} className="profile_img_cont" />
         </div>
       </div>
       {/* <div className="border-2"></div> */}

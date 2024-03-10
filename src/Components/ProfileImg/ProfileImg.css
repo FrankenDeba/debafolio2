@@ -8,6 +8,7 @@
   border: 5px solid steelblue;
   transform: rotate(-10deg);
   border-radius: 25px 0 25px 0;
+  box-shadow: 0 0 10px steelblue;
 }
 
 .bord_cont2 {
@@ -15,16 +16,17 @@
   border: 5px solid salmon;
   transform: rotate(-20deg);
   border-radius: 25px 0 25px 0;
+  box-shadow: 0 0 10px rgb(250, 128, 114);
 }
 
-.border-2 {
+/* .border-2 {
   border: 2px dashed #000;
   transform: translate(0, 0px) rotate(-50deg);
   height: 80%;
   z-index: -2;
-}
+} */
 
-.profile_pic_cont .img_cont {
+.profile_pic_cont .profile_img_cont {
   transform: rotate(30deg);
   /* border-radius: 15px; */
   border-radius: 25px 0 25px 0;

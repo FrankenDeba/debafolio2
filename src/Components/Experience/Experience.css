@@ -1,6 +1,9 @@
 .exp_cont {
   padding: 20px 25px;
-  background-color: #faedcd;
+  background-color: whitesmoke;
+  /* #b6eccc; */
+  /* whitesmoke; */
+  /* #faedcd; */
   border: 2px solid #000;
   box-shadow: -5px -5px rgb(33, 158, 188, 1);
   display: flex;
@@ -17,14 +20,20 @@ li::before {
 }
 
 .img_cont {
-  width: 250px;
+  width: 150px;
+  height: 100px;
 }
 
 .desc_para {
 }
 
+.desc_cont ul {
+  padding: 5px;
+}
+
 .img_cont img {
   width: 100%;
+  height: 100%;
 }
 
 .desc_cont {
@@ -50,13 +59,34 @@ li::before {
   color: #fff;
   border-radius: 3px;
   padding: 10px 15px;
+  background-position: center;
   background: repeating-linear-gradient(
     45deg,
-    #606dbc,
-    #606dbc 10px,
-    #465298 10px,
-    #465298 20px
+    #0077b6,
+    /* #606dbc, */ #0077b6,
+    /* #606dbc 10px, */ #00b4d8,
+    /* #465298 10px, */ /* #465298  */ #00b4d8
   );
+
+  /* animation: bgAnim 1s linear 0 infinite; */
+  animation-name: bgAnim;
+  animation-duration: 1s;
+}
+
+@keyframes bgAnim {
+  from {
+    background-position: left;
+  }
+  to {
+    background-position: right;
+  }
+}
+
+.desc_cont h2 {
+  /* min-width: 150px; */
+  background: url(scribble.svg);
+  background-position: left;
+  background-repeat: no-repeat;
 }
 
 .tech_cont p.tech_cont_p {

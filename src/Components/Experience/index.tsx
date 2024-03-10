@@ -17,22 +17,12 @@ function Experience({ exp }: { exp: any }) {
       <div className="exp_cont_with_border">
         <div className="exp_cont">
           <div className="img_cont">
-            <img src={Logo} alt="infa" />
+            <img src={logo} alt="infa" />
           </div>
           <div className="desc_cont">
             <h1 className="company-name">{companyName}</h1>
             <h2>{role}</h2>
-            <p
-              //   style={{
-              //     backgroundColor: "#219ebc",
-              //     color: "#fff",
-              //     boxShadow: "4px 4px #000",
-              //     padding: "5px",
-              //   }}
-              className="year_cont"
-            >
-              {year}
-            </p>
+            <p className="year_cont">{year}</p>
             <TexturePaper>
               <>
                 <p className="desc_para">😎 {desc}</p>
