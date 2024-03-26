@@ -1,10 +1,123 @@
-.bgProj {
+/* .bgProj {
   width: 250px;
   display: flex;
   justify-content: center;
   align-items: center;
+} */
+
+.project__card {
+  box-sizing: border-box;
+  /* width: 100%; */
+  display: flex;
+  justify-content: space-between;
+  color: #000;
+  /* AntiqueWhite; */
+  /* position: relative; */
+  margin: 25px 50px;
+  border-radius: 25px;
+  box-shadow: 5px 5px #000;
+  padding: 25px;
 }
 
-.bgProj img {
+.desc_and_links {
+  /* width: 60%; */
+  padding: 25px;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project__card.rev {
+  flex-direction: row-reverse;
+}
+
+.proj_desc {
+  font-size: 24px;
+  padding: 10px;
+  width: 100%;
+  margin-top: 10px;
+  text-align: left;
+  /* height: 300px; */
+  border: 4px solid antiquewhite;
+  border-radius: 3px;
+  box-shadow: 0 0 5px #fff;
+}
+
+.proj_desc h2 {
+  text-decoration: underline;
+}
+
+.proj_img img {
+  width: 100%;
+}
+
+.proj_img {
+  width: 150px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 2px;
+  font-family: sans-serif;
+  display: inline-block;
+  color: var(--c-1);
+  text-align: center;
+  display: block;
+  background: #333;
+  color: AntiqueWhite;
+  border: 14px dotted AntiqueWhite;
+  /* margin: 10px; */
+  line-height: 1;
+  padding: 10px 0 10px 0;
+  font-size: 100px;
+  font-family: "Lobster", cursive;
+  text-shadow: 1px 1px 2px #ccc;
+}
+
+.proj_btn_cont {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.proj_btn_cont button {
+  border: none;
+  padding: 5px 8px;
+  background-color: antiquewhite;
+  margin-left: 5px;
+  border-radius: 0 0 3px 3px;
+  /* color: steelblue; */
+  font-size: 16px;
+  box-shadow: 0 0 10px #fff;
+}
+
+.proj_btn_cont button:nth-child(2) a {
+  color: steelblue;
+}
+
+.proj_btn_cont button:nth-child(2) a {
+  color: salmon;
+}
+
+.proj_btn_cont a {
+  text-decoration: none;
+}
+
+/* .proj_img_layer2 {
+  opacity: 0.25;
+
+  position: relative;
+  left: -250px;
   width: 80%;
+  height: 80%;
+  left: 0;
+} */
+
+@media screen and (max-width: 768px) {
+  .project__card,
+  .project__card.rev {
+    flex-direction: column;
+    align-items: center;
+    /* width: 100%; */
+  }
 }

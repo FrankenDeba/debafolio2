@@ -7,6 +7,8 @@ import Intro from "./Sections/Intro";
 import Experiences from "./Sections/Experiences";
 import SectionDivider from "./Components/SectionDivider";
 import ProjectCard from "./Components/ProjectCard";
+import Projects from "./Sections/Projects";
+import SkillCloud from "./Components/SkillCloud";
 
 function App() {
   return (
@@ -16,7 +18,10 @@ function App() {
       <SectionDivider title="Experiences" col="salmon" />
       <Experiences />
       <SectionDivider title="Projects" col="#2a9d8f" />
-      <ProjectCard bgCol="salmon" />
+      <Projects />
+      <SectionDivider title="Skills" col="steelblue" />
+      <SkillCloud />
+      {/* <ProjectCard bgCol="salmon" desc="A weather app with charting" /> */}
     </div>
   );
 }

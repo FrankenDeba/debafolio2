@@ -1,11 +1,12 @@
 .divider {
-  border-top: 50px solid transparent;
+  /* border-top: 50px solid transparent; */
   /* border-image:  */
-  border-image: url(wave1.svg) 30 round;
+  /* border-image: url(wave1.svg) 30 round; */
   /* border-image-repeat: ; */
   /* border- 1px */
   /* dashed #000; */
   /* border-image: ; */
+  border-top: 1px dashed #000;
   display: flex;
   justify-content: center;
   align-items: center;
