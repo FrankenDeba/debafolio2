@@ -1,8 +1,7 @@
 .profile_pic_cont {
-  /* position: absolute; */
-  /* position: relative; */
   margin-right: 50px;
   margin-left: 50px;
+  transition: transform 0.6s;
 }
 
 .bord_cont1 {
@@ -11,6 +10,19 @@
   transform: rotate(-10deg);
   border-radius: 25px 0 25px 0;
   box-shadow: 0 0 10px steelblue;
+  transition: transform 0.6s;
+}
+
+.bord_cont1:hover {
+  transform: rotate(0deg);
+}
+
+.bord_cont2:hover {
+  transform: rotate(0deg);
+}
+
+.profile_pic_cont:hover {
+  transform: rotate(-20deg);
 }
 
 .bord_cont2 {
@@ -19,6 +31,7 @@
   transform: rotate(-20deg);
   border-radius: 25px 0 25px 0;
   box-shadow: 0 0 10px rgb(250, 128, 114);
+  transition: transform 0.6s;
 }
 
 /* .border-2 {

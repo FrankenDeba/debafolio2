@@ -35,20 +35,23 @@ function ProjectCard({ data, index }: { data: ProjDataType; index: number }) {
         }
       > */}
       <div className="proj_img">
-        <img src={Prof} />
+        <img src={projImg} />
       </div>
       <div className="desc_and_links">
         <div className="proj_desc">
           <h2>{desc.head}</h2>
           {desc.body}
-          {/* <UsedTechsCont technologies={[]} /> */}
         </div>
         <div className="proj_btn_cont">
           <button>
-            <a href="#">🌐 Live Link</a>
+            <a href={link} target="_blank" rel="noopener norefer">
+              🌐 Live Link
+            </a>
           </button>
           <button>
-            <a href="#">👨‍💻 Code</a>
+            <a href={code} target="_blank" rel="noopener norefer">
+              👨‍💻 Code
+            </a>
           </button>
         </div>
       </div>

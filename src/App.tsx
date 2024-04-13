@@ -9,6 +9,8 @@ import SectionDivider from "./Components/SectionDivider";
 import ProjectCard from "./Components/ProjectCard";
 import Projects from "./Sections/Projects";
 import SkillCloud from "./Components/SkillCloud";
+import Skill from "./Components/Skill";
+import SkillsContainer from "./Sections/Skills";
 
 function App() {
   return (
@@ -20,7 +22,9 @@ function App() {
       <SectionDivider title="Projects" col="#2a9d8f" />
       <Projects />
       <SectionDivider title="Skills" col="steelblue" />
-      <SkillCloud />
+      {/* <SkillCloud /> */}
+      {/* <Skill level={9} /> */}
+      <SkillsContainer />
       {/* <ProjectCard bgCol="salmon" desc="A weather app with charting" /> */}
     </div>
   );

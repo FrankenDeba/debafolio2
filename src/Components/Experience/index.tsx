@@ -1,5 +1,4 @@
 import "./Experience.css";
-import Logo from "../../infa.png";
 import { useState } from "react";
 import TexturePaper from "../TexturePaper";
 import UsedTechsCont from "../UsedTechsCont";
@@ -26,35 +25,16 @@ function Experience({ exp }: { exp: any }) {
             <p className="year_cont">{year}</p>
             <TexturePaper>
               <>
-                <p className="desc_para">😎 {desc}</p>
-                <ul>
+                <p className="desc_para">🚀 {desc}</p>
+                {/* <ul>
                   {points?.map((p: string) => (
                     <li>{p}</li>
                   ))}
-                </ul>
+                </ul> */}
               </>
             </TexturePaper>
           </div>
           <UsedTechsCont technologies={technologies} />
-          {/* <div className="tech_cont">
-            <p className="year_cont">Skills:</p>
-            {technologies?.map((tech: any) => {
-              return (
-                <p
-                  className="tech_cont_p"
-                  style={{
-                    color: tech.col,
-                    border: `1px solid ${tech.col}`,
-                    backgroundColor: tech.bgCol,
-                    boxShadow: `0 0 5px ${tech.col}`,
-                    //   opacity: "0.5",
-                  }}
-                >
-                  {tech.text}
-                </p>
-              );
-            })}
-          </div> */}
         </div>
       </div>
     </div>

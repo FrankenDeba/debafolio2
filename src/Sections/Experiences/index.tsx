@@ -29,8 +29,12 @@ function Experiences() {
           col: "rgb(187, 62, 3)",
           bgCol: "rgb(187, 62, 3, 0.25)",
         },
-        { text: "Jest unit test", col: "", bgCol: "" },
-        { text: "E2E", col: "", bgCol: "" },
+        {
+          text: "Jest unit test",
+          col: "#219ebc",
+          bgCol: "rgb(33, 158, 188, 0.25)",
+        },
+        { text: "E2E", col: "#457b9d", bgCol: "rgb(69, 123, 157, 0.25)" },
       ],
       role: "Software Engineer",
       points: [
@@ -44,7 +48,24 @@ function Experiences() {
       companyName: "Classplus",
       year: "June 2021 - June 2022",
       desc: "I was contributing mainly to their in-house CRM & other growth related products.",
-      technologies: [],
+      technologies: [
+        { text: "React.js", col: "#457b9d", bgCol: "rgb(69, 123, 157, 0.25)" },
+        {
+          text: "JavaScript",
+          col: "#219ebc",
+          bgCol: "rgb(33, 158, 188, 0.25)",
+        },
+        {
+          text: "Semantic UI",
+          col: "rgb(250, 128, 114)",
+          bgCol: "rgb(250, 128, 114, 0.25)",
+        },
+        {
+          text: "Redux",
+          col: "rgb(187, 62, 3)",
+          bgCol: "rgb(187, 62, 3, 0.25)",
+        },
+      ],
       role: "Software Engineer (UI)",
       points: [],
       logo: cpLogo,
@@ -52,26 +73,78 @@ function Experiences() {
     {
       companyName: "Learngram",
       year: "February 2021 - May 2021",
-      desc: "",
-      technologies: [""],
-      role: "",
+      desc: "I was developing an end-to-end online classroom product",
+      technologies: [
+        { text: "React.js", col: "#457b9d", bgCol: "rgb(69, 123, 157, 0.25)" },
+        {
+          text: "TypeScript",
+          col: "#219ebc",
+          bgCol: "rgb(33, 158, 188, 0.25)",
+        },
+        {
+          text: "JavaScript",
+          col: "rgb(250, 128, 114)",
+          bgCol: "rgb(250, 128, 114, 0.25)",
+        },
+        {
+          text: "Redux",
+          col: "rgb(187, 62, 3)",
+          bgCol: "rgb(187, 62, 3, 0.25)",
+        },
+      ],
+      role: "Frontend Developer (contract)",
       points: [],
       logo: learngramLogo,
     },
     {
       companyName: "SuperProcure",
       year: "August 2020 - February 2021",
-      desc: "",
-      technologies: [""],
-      role: "",
+      desc: "I was working on a logistics software, mainly I was working on dashboards",
+      technologies: [
+        { text: "React.js", col: "#457b9d", bgCol: "rgb(69, 123, 157, 0.25)" },
+        {
+          text: "TypeScript",
+          col: "#219ebc",
+          bgCol: "rgb(33, 158, 188, 0.25)",
+        },
+        {
+          text: "JavaScript",
+          col: "rgb(250, 128, 114)",
+          bgCol: "rgb(250, 128, 114, 0.25)",
+        },
+        {
+          text: "Redux",
+          col: "rgb(187, 62, 3)",
+          bgCol: "rgb(187, 62, 3, 0.25)",
+        },
+        {
+          text: "Chart.js",
+          col: "#219ebc",
+          bgCol: "rgb(33, 158, 188, 0.25)",
+        },
+        {
+          text: "React-bootstrap",
+          col: "#457b9d",
+          bgCol: "rgb(69, 123, 157, 0.25)",
+        },
+      ],
+      role: "Software Developer",
       points: [],
       logo: spLogo,
     },
     {
       companyName: "Alien Brains",
       year: "January 2020 - July 2020",
-      desc: "",
-      technologies: [""],
+      desc: "They taught me react.js and I built a small portfolio site for them",
+      technologies: [
+        { text: "React.js", col: "#457b9d", bgCol: "rgb(69, 123, 157, 0.25)" },
+
+        {
+          text: "JavaScript",
+          col: "rgb(250, 128, 114)",
+          bgCol: "rgb(250, 128, 114, 0.25)",
+        },
+      ],
       role: "Web developer trainee (Internship)",
       points: [],
       logo: alien,
@@ -85,7 +158,6 @@ function Experiences() {
       {experiences.map((exp) => (
         <Experience exp={exp} />
       ))}
-      {/* </div> */}y{/* </div> */}
     </div>
   );
 }
